@@ -613,7 +613,7 @@ input, textarea{
         grid-template-columns: repeat(6,1fr);
         /* grid-template-rows: 40px 2.6fr 3fr 2fr 2.5fr 3.2fr; */
     }
- .header{
+    .header{
         grid-row: 1/2;
         grid-column: 1/-1;
         height:50px;
@@ -707,7 +707,7 @@ input, textarea{
         display: flex;
         flex-direction:column;
         gap:0.5em;
-        margin-left: 2em;
+        margin-left: 1.7em;
         margin-right: auto;
     }
     .contact-1{
@@ -717,6 +717,7 @@ input, textarea{
     .contact-1 .con-h1{
         font-size: 22px;
         margin-top: 4px;
+        margin-left: -0.3em;
     }
     .footer{
         width:100vw;
@@ -725,14 +726,15 @@ input, textarea{
     .sub-h3{
         display:block;
         margin-bottom: 1em;
+        font-size:18px
     }
     .email{
         margin-left: 1em;
         font-size:12px;
         display:block
     }
-    .form input{
-        margin-left: 1em;
+    input#email{
+        margin-left: 10px;
     }
     
     div .my-skill h3, div .my-portfolio h3, div .sv-1 h3, #contact h1{
@@ -742,5 +744,19 @@ input, textarea{
     .know{
         background-color: #4b4444;
     }
-    
+    .con-in{
+        font-size:20px;
+    }
+    .con-in, .mail , p.mail-info , .sub-h3, h4.mail-info{
+        margin-left: 30px;
+    }
+    input#name, input#mail, input#number, #comment, .but{
+        margin-left: 30px;
+    }
+    .contact-with-me li{
+        list-style-type: none;
+        display:inline-block;
+        margin-top: 1em;
+        margin-left: 1em;
+    }
 }
