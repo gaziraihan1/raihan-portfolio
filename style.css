@@ -140,11 +140,12 @@ p{
     gap:1em
 }
 
-#s-skill{
-    display:inline-block;
+#s-skill div{
+    display:none
+}
+.my-skill{
     grid-row: 1/2;
-    grid-column: 5/9;
-    margin-left: 1em;
+    grid-column: 5/8;
 }
 .my-skill h3{
     font-size: 2.5em;
@@ -182,6 +183,7 @@ p{
     grid-template-rows: 80px 1fr;
     grid-template-columns: repeat(11,1fr);
     gap:10px;
+    row-gap: -10px;
 }
 
 .blockchain-dev{
@@ -190,7 +192,7 @@ p{
     background-color: #fff;
 }
 .port-1{
-    grid-row: 3/-1;
+    grid-row: 2/-1;
     background-color: #7c7777;
     border-radius: 0.5em;
     
@@ -230,15 +232,20 @@ p{
     background-size: cover;
 }
 
-
-#portfolio{
+#portfolio div{
+    display:none;
+}
+.my-portfolio{
     grid-row: 1/2;
-    grid-column: 6/9;
+    grid-column: 5/9;
+    margin-bottom: -1em;
+    height:80px
 }
 .my-portfolio h3{
     color: rgb(101, 180, 216);
-    margin: 1em;
+    margin-top:0.6em;
     font-size: xx-large;
+    margin-left: 2em;
 }
 .service{
     grid-column: 1/-1;
@@ -254,6 +261,7 @@ p{
     display:grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: 80px 1fr;
+    gap:1em
 }
 abbr{
     text-decoration: none;
@@ -336,26 +344,26 @@ abbr{
 .sv-1{
     display:inline-block;
     grid-row: 1/2;
-    grid-column: 5/10;
+    grid-column: 5/8;
 }
 .sv-1 h3{
     margin-top: 0.6em;
 }
-
-#service{
-    grid-row: 1/2;
-    grid-column: 5/10;
+#service div{
+    display:none
 }
 
-#contact{
-    display:inline;
+#contact div{
+    display:none; 
+}
+.contact-1{
+    grid-row: 1/2;
     grid-column: 4/6;
-    grid-row: 1/2;
+    
 }
-#contact h1{
+.contact h1{
     color: rgb(101, 180, 216);
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+    margin-top: 0.7em;
 }
 .contact-with-me{
     grid-column: 2/5;
@@ -591,7 +599,7 @@ input, textarea{
     display:none;
 }
 
-@media (max-width:520px) {
+@media (max-width:420px) {
     body{
         width: 100vw;
         height:100vh;
@@ -611,6 +619,9 @@ input, textarea{
         height:50px;
         text-align: center;
         font-size:12px
+    }
+    .navbar ul li{
+        padding:10px;
     }
     .content{
         max-width:100vw;
@@ -644,62 +655,86 @@ input, textarea{
         display:flex;
         flex-direction:column;
         max-width:100vw;
-        margin:1em 2em;
+        margin:0em 2em;
+        gap:0.5em;
     }
     .my-skill{
         text-align: center;
-        
-        font-size:1em
+        max-height: 40px;
+    }
+    .my-skill h3{
+        font-size:22px
     }
     .portfolio{
         display: flex;
         flex-direction: column;
-        margin:1em 2em;
+        margin:0.5em 2em;
+        gap:0.5em
     }
     .my-portfolio{
+        max-height: 40px;
+        margin-bottom: -6px;
+        margin-top: -0.3em;
+    }
+    .my-portfolio h3{
+        font-size:22px;
         text-align: center;
+        margin-top: -0.3em;
     }
     .service{
         display: flex;
         flex-direction:column;
-        gap: 1em;
+        gap: 0.5em;
         margin-left:auto;
         margin-right: auto;
     }
     .service-1,.service-2,.service-3{
-        margin:1em 2em;
+        margin:0em 2em;
+        margin-bottom: -0.3em;
     }
     .sv-1{
         display: block;
         text-align: center;
+        max-height: 40px;
+        margin-top: -0.5em;
     }
-    .sv-1 h3 .h3{
+    .sv-1 .h3{
         display: block;
         text-align: center;
-        margin-top: 1em;
+        font-size:22px
     }
     .contact{
         display: flex;
         flex-direction:column;
-        gap:1em;
-        margin-left: auto;
+        gap:0.5em;
+        margin-left: 2em;
         margin-right: auto;
     }
-    #contact{
+    .contact-1{
     text-align: center;
+    max-height: 40px;
     } 
+    .contact-1 .con-h1{
+        font-size: 22px;
+        margin-top: 4px;
+    }
     .footer{
         width:100vw;
         font-size: 0.8em;
     }
+    .sub-h3{
+        display:block;
+        margin-bottom: 1em;
+    }
     .email{
-        font-size:10px
+        margin-left: 1em;
+        font-size:12px;
+        display:block
+    }
+    .form input{
+        margin-left: 1em;
     }
     
-    div .my-skill,div .my-portfolio, div .sv-1, #contact{
-        height:40px;
-        font-size: 13px;
-    }
     div .my-skill h3, div .my-portfolio h3, div .sv-1 h3, #contact h1{
         text-align: center;
         margin: auto;
@@ -707,4 +742,5 @@ input, textarea{
     .know{
         background-color: #4b4444;
     }
+    
 }
