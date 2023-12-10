@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +16,9 @@
         <div class="header">
             <!-- navigation bar -->
             <div class="navbar">
-                <ul>
+                <span class="menuBtn" onclick="openMenu()">&equiv;</span>
+                <span class="closeBtn" onclick="closeMenu()">&#9746</span>
+                <ul id="menu">
                     <li  class="active">
                         <a href="#">home</a>
                     </li>
@@ -313,6 +316,6 @@
         <div class="footer">
             <address class="foot">design by Raihan Gazi &copy; all right reserved, 2023.</address>
         </div>  
-    
+    <script src="script.js"></script>
 </body>
 </html>
