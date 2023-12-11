@@ -625,13 +625,13 @@ input, textarea{
         width: 100vw;
         grid-row: 1/2;
         grid-column: 1/-1;
-        height:40px;
+        height:45px;
         text-align: center;
         font-size:12px;
-        position:sticky;
+        position:fixed;
     }
     .navbar{
-        height:40px
+        height:45px;
     }
     .content{
         max-width:100vw;
@@ -679,6 +679,7 @@ input, textarea{
         display: flex;
         flex-direction: column;
         margin:0.5em 2em;
+        margin-top: 2em;
         gap:0.5em
     }
     .my-portfolio{
@@ -695,8 +696,9 @@ input, textarea{
         margin: auto;
         background-color: #000000;
         display:block;
-        border:1px solid black;
-        margin-top: 0.5em;
+        border:1px solid rgb(65, 61, 61);
+        border-radius:5px;
+        margin-top: 0.4em;
     }
     .service{
         display: flex;
@@ -704,6 +706,7 @@ input, textarea{
         gap: 0.5em;
         margin-left:auto;
         margin-right: auto;
+        margin-top: 2em;
     }
     .service-1,.service-2,.service-3, .sv-1{
         margin:0em 2em;
@@ -731,6 +734,7 @@ input, textarea{
         gap:0.5em;
         margin-left: 32px;
         margin-right: 32px;
+        margin-top: 1em;
     }
     div.contact-with-me{
         display:block;
@@ -773,7 +777,11 @@ input, textarea{
         background-color: #000000;
         display:block;
         border:1px solid rgb(65, 61, 61);
+        border-radius:5px;
         margin-top: 0.8em;
+    }
+    h1.chng-col.con-h1{
+        margin-top: 0.7em;
     }
     div .sv-1 h3{
         margin-top: 20px;
@@ -851,6 +859,11 @@ input, textarea{
     div.container-1, div.container-2{
         margin-left: 0px;
     }
+    address.foot{
+        font-size:10px;
+        margin-top: 8px;
+    }
+    
 }
 @media (min-width:640px) and (max-width:1118px) {
     div.sv-1{
