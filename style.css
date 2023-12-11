@@ -38,7 +38,7 @@ body{
  .navbar ul li{
      list-style-type: none;
      display: inline-block;
-     padding:16px;
+     padding:17px;
      transition: 1s;
  }
  .navbar ul li a{
@@ -628,7 +628,7 @@ input, textarea{
         height:40px;
         text-align: center;
         font-size:12px;
-        position:fixed;
+        position:sticky;
     }
     .navbar{
         height:40px
@@ -756,15 +756,17 @@ input, textarea{
         font-size:18px
     }
     .email{
-        margin-left: 50px;
+        margin-left: 40px;
         font-size:12px;
         display:block
     }
     input#email{
-        margin-left: 50px;
+        margin-left: 40px;
         margin-bottom: 1em;
     }
-    
+    form.form input#email, button.subscribe{
+        padding:2px;
+    }
     div .my-skill h3, div .sv-1 h3, h1.chng-col.con-h1{
         text-align: center;
         margin: auto;
@@ -784,16 +786,25 @@ input, textarea{
         font-size:20px;
     }
     .con-in, .mail , p.mail-info , .sub-h3, h4.mail-info{
-        margin-left: 50px;
+        margin-left: 40px;
     }
     input#name, input#mail, input#number, #comment, .but{
-        margin-left: 50px;
+        margin-left: 40px;
     }
     .contact-with-me li{
         list-style-type: none;
         display:inline-block;
         margin-top: 1em;
-        margin-left: 4em;
+        margin-left: 32px;
+        padding:0.3em;
+        background-color: #9c9797;
+        border-radius: 50%;
+        transition:0.4s;
+    }
+    .contact-with-me li:hover{
+        width:18px;
+        height:22px;
+        padding:0.6px
     }
     .content .h1{
         font-size:25px;
@@ -830,6 +841,15 @@ input, textarea{
     }
     .project-p{
         color:chartreuse
+    }
+    div.skill p, div.service p, h4.com-des, div.service a{
+        margin-left: 16px;
+    }
+    ul.sv-3-ul{
+        margin-left:32px;
+    }
+    div.container-1, div.container-2{
+        margin-left: 0px;
     }
 }
 @media (min-width:640px) and (max-width:1118px) {
