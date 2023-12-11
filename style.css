@@ -606,6 +606,9 @@ input, textarea{
 #about-us div{
     display:none;
 }
+textarea{
+    resize: none;
+}
 
 @media (max-width:640px) {
     body{
