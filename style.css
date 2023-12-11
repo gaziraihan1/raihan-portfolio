@@ -688,7 +688,14 @@ input, textarea{
     .my-portfolio h3{
         font-size:22px;
         text-align: center;
-        margin-top: -0.3em;
+        /* margin-top: -0.3em; */
+        /* margin-top: -1em; */
+        text-align: center;
+        margin: auto;
+        background-color: #fff;
+        display:block;
+        border:1px solid black;
+        margin-top: 0.5em;
     }
     .service{
         display: flex;
@@ -747,17 +754,22 @@ input, textarea{
         font-size:18px
     }
     .email{
-        margin-left: 1em;
+        margin-left: 30px;
         font-size:12px;
         display:block
     }
     input#email{
-        margin-left: 10px;
+        margin-left: 30px;
+        margin-bottom: 1em;
     }
     
-    div .my-skill h3, div .my-portfolio h3, div .sv-1 h3, #contact h1{
+    div .my-skill h3, div .sv-1 h3, h1.chng-col.con-h1{
         text-align: center;
         margin: auto;
+        background-color: #fff;
+        display:block;
+        border:1px solid black;
+        margin-top: 1em;
     }
     .know{
         background-color: #4b4444;
@@ -766,22 +778,36 @@ input, textarea{
         font-size:20px;
     }
     .con-in, .mail , p.mail-info , .sub-h3, h4.mail-info{
-        margin-left: 30px;
+        margin-left: 40px;
     }
     input#name, input#mail, input#number, #comment, .but{
-        margin-left: 30px;
+        margin-left: 40px;
     }
     .contact-with-me li{
         list-style-type: none;
         display:inline-block;
         margin-top: 1em;
-        margin-left: 1em;
+        margin-left: 3em;
+    }
+    .content .h1{
+        font-size:25px;
+    }
+    .h1-1{
+        word-spacing: 5px;
+        font-size:28px
     }
     .navbar ul{
         display: none;
     }
     .navbar ul li{
         display:block;
+    }
+    .navbar ul li a{
+        font-style: normal;
+        font-family: monospace;
+    }
+    .navbar ul li a:hover{
+        border:1px solid green;
     }
     span.menuBtn{
         display:block;
