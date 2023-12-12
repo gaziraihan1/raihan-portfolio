@@ -682,7 +682,7 @@ textarea{
         display: flex;
         flex-direction: column;
         margin:0.5em 2em;
-        margin-top: 2em;
+        margin-top: 1.3em;
         gap:0.5em
     }
     .my-portfolio{
