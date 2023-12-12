@@ -824,9 +824,7 @@ textarea{
         transition:0.4s;
     }
     .contact-with-me li:hover{
-        width:18px;
-        height:22px;
-        padding:0.6px
+        transform: translateY(-5px);
     }
     .content .h1{
         font-size:25px;
