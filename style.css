@@ -64,7 +64,7 @@ body{
      background-color: #fff;
  }
  .menuBtn, .closeBtn{
-    font-size:40px;
+    font-size:30px;
     margin:-5px 30px;
     display:none;
     text-align: end;
@@ -632,6 +632,7 @@ textarea{
         text-align: center;
         font-size:12px;
         position:fixed;
+        background-color: black;
     }
     .navbar{
         height:45px;
@@ -841,6 +842,10 @@ textarea{
         display:block;
         height:40px;
         align-items: end;
+        color:white;
+    }
+    .closeBtn{
+        color:white;
     }
     #menu{
         width:100%;
