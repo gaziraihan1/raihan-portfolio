@@ -844,11 +844,13 @@ textarea{
     span.menuBtn{
         display:block;
         height:40px;
+        font-size:40px;
         align-items: end;
         color:white;
     }
     .closeBtn{
         color:white;
+        font-size:40px;
     }
     #menu{
         width:100%;
