@@ -16,7 +16,9 @@ body{
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: 55px 2.6fr 3fr 2fr 2.5fr 3.2fr;
 }
-
+.animationName{
+    color: yellow;
+}
 .header{
     background-color: #8f8383;
     width:100vw;
@@ -609,6 +611,7 @@ input, textarea{
 textarea{
     resize: none;
 }
+
 
 @media (max-width:640px) {
     body{

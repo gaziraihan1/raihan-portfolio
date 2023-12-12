@@ -13,3 +13,4 @@ function closeMenu(){
     menuBtn.style.display = 'block';
     closeBtn.style.display = 'none';
 }
+
