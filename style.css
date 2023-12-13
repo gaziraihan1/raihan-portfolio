@@ -120,7 +120,6 @@ body{
 }
 .know{
     padding:0.5em;
-    background-color: black;
     color:white;
     border:1px solid white;
     border-radius:1em;
@@ -892,6 +891,25 @@ textarea{
     address.foot{
         font-size:10px;
         margin-top: 8px;
+    }
+    .cont{
+        padding: 0.3em;
+        background-color: rgb(81, 81, 201);
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 1em;
+        margin-top: 2em;
+        font-size: 14px;
+    }
+    .know{
+        padding:0.3em;
+        background-color: black;
+        color:white;
+        border:1px solid white;
+        border-radius:1em;
+        text-decoration: none;
+        margin-top: 2em;
+        font-size: 14px;
     }
     
 }
