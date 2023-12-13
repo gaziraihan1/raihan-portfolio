@@ -93,7 +93,7 @@ body{
     margin-left: 1em;
 }
 .h1{
-    color:rgb(101, 180, 216)
+    color:rgb(18, 237, 237)
 }
 .h1-1{
     color:white;
@@ -112,8 +112,8 @@ body{
 }
 .cont{
     padding: 0.5em;
-    background-color: rgb(81, 81, 201);
-    color:rgb(255, 255, 255);
+    background-color: rgb(18, 237, 237);
+    color:rgb(189, 0, 0);
     text-decoration: none;
     border-radius: 1em;
     margin-top: 1em;
