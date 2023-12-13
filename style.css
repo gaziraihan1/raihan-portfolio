@@ -285,7 +285,9 @@ abbr{
     margin-right: 3.5em;
 }
 
-
+.check-more{
+    display: none;
+}
 .footer{
     margin-top: 1em;
     text-align:center;
@@ -627,10 +629,32 @@ textarea{
     body{
         background: none;
     }
+    
     body{
         width: 100vw;
         height:100vh;
         background-color: #0e0d0d;
+    }
+    .check-more{
+        display:block;
+        margin:0 2em;
+        background-color: #ffb0b0;
+        border-radius: 2px;
+    }
+    .check-more h2{
+        text-align: center;
+        color:#480072
+    }
+    .check-more h5{
+        text-align: center;
+        margin-left: 0.7em;
+        margin-top: -0.6em;
+        color:rgb(206, 69, 160)
+    }
+    .check-more a.github {
+        display: block;
+        text-align: center;
+        padding:0.5em
     }
     .container{
         /* display:grid; */
@@ -658,7 +682,6 @@ textarea{
         grid-row: 2/4;
         display:flex;
         flex-direction: column;
-        margin-top: 1em;
         margin-left: auto;
         margin-right: auto;
         gap: 20px;
@@ -702,6 +725,7 @@ textarea{
     }
     .skills{
         background-color: wheat;
+        border-radius: 2px;
     }
     .coding-lang h3, .mother-lang h3, .other-skill h3{
         color:brown;
@@ -722,6 +746,9 @@ textarea{
         margin-bottom: -6px;
         margin-top: -0.3em;
     }
+    .project-2 ,.project-3{
+        display: none;
+    }
     .my-portfolio h3{
         font-size:22px;
         text-align: center;
@@ -732,7 +759,7 @@ textarea{
         background-color: #000000;
         display:block;
         border:1px solid rgb(65, 61, 61);
-        border-radius:5px;
+        border-radius:2px;
         margin-top: 0.4em;
     }
     .service{
@@ -789,8 +816,12 @@ textarea{
     }
     div.contact-with-me{
         display:block;
+        border-radius: 2px;
         /* margin-left:auto;
         margin-right: auto; */
+    }
+    .send-msg{
+        border-radius: 2px;
     }
     .contact-1{
     text-align: center;
@@ -828,7 +859,7 @@ textarea{
         background-color: #000000;
         display:block;
         border:1px solid rgb(65, 61, 61);
-        border-radius:5px;
+        border-radius:2px;
         margin-top: 0.8em;
     }
     h1.chng-col.con-h1{
