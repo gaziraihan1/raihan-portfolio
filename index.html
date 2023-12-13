@@ -46,7 +46,7 @@
             <section id="about-us">
                 <div></div>
                 </section>
-                <h1 class="h1"> Hello, I am</h1>
+                <h1 class="h1"> <span class="hello"></span> <br> I am</h1>
                 <h1 class="h1-1">Raihan Gazi</h1>
                 <h1 class="h1-2">an <span class="animationName"></span></h1>
                 <p>A passionate front-end web developer with a keen eye for design and a love for<br>
@@ -72,7 +72,7 @@
             <div class="my-skill">
                 <h3 class="h3">My Skills</h3>
             </div>
-             <div class="coding-lang">
+             <div class="coding-lang skills">
                 <h3>Programming Skill</h3>
                 <p>
                     As a newcomer i've learn only few thing's, <br>
@@ -125,7 +125,7 @@
                     </div>
                 </div>
              </div>
-             <div class="mother-lang">
+             <div class="mother-lang skills">
                 <h3>Language Skill</h3>
                 <p>
                     We know communication skill is very important to <br>
@@ -164,7 +164,7 @@
                     </div>
                 </div>
              </div>
-             <div class="other-skill">
+             <div class="other-skill skills">
                  <h3>Experience & Others</h3>
                  <p>
                     I have more than 2+ years experience <br> 
@@ -326,6 +326,12 @@
     backSpeed: 50,
     loop: true,
 });
+var typed = new Typed('.hello', {
+    strings:['Hi', 'Hello'],
+    typeSpeed:160,
+    backSpeed:70,
+    loop:true,
+})
     </script>
 </body>
 </html>
