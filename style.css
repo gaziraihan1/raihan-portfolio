@@ -844,14 +844,7 @@ textarea{
 
     /* image for each section */
     
-    .service-1 img, .service-2 img, .service-3 img,.skills img{
-        display: block;
-        height:20vh;
-        border-radius: 2px;
-        border:2px solid white;
-        width:100%;
-    }
-    .contact-with-me img,.send-msg img{
+    .service-1 img, .service-2 img, .service-3 img,.skills img,.contact-with-me img,.send-msg img{
         display: block;
         height:20vh;
         border-radius: 2px;
