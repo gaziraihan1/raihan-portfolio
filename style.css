@@ -423,7 +423,7 @@ p{
 }
 
 .service-1 h3,.service-1 p,.com-des, .service-2 h3, .service-2 p, .service-3 h3{
-    margin-left: 2em;
+    margin-left: 1em;
     margin-top: 1em;
     margin-right: 1em;
     color:rgb(216, 199, 167);
@@ -773,22 +773,21 @@ textarea{
     }
     .my-skill h3{
         font-size:22px
-    }
+}
     .skills{
         background-color: wheat;
         border-radius: 2px;
     }
     .skills h3{
         text-align: center;
-    }
-    .coding-lang h3, .mother-lang h3, .other-skill h3{
+        margin-left: 0;
         color:brown;
     }
     .coding-lang p, .mother-lang p, .other-skill p{
         color:rgb(102, 22, 194);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
-
+    
     /* my work section ,portfolio */
 
     .portfolio{
@@ -821,25 +820,26 @@ textarea{
     }
     .check-more{
         display:block;
-        margin:0 1em;
-        background-color: #ffb0b0;
-        border-radius: 2px;
+        margin:2em 1em;
+        background-color: #003d03;
+        border:1px solid white;
+        border-radius: 3px;
     }
     .check-more h2{
         text-align: center;
-        color:#480072
+        color:#7c5792
     }
     .check-more h5{
         text-align: center;
         margin-left: 0.7em;
         margin-top: -0.6em;
-        color:rgb(206, 69, 160)
+        color:rgb(252, 154, 219)
     }
     .check-more a.github {
         display: block;
         text-align: center;
         font-size:25px;
-        color:black;
+        color:rgb(156, 116, 116);
     }
 
     /* image for each section */
@@ -886,7 +886,8 @@ textarea{
     }
     .service-1 h3,.service-2 h3, .service-3 h3{
         text-align: center;
-        color:#f04343
+        color:#f04343;
+        margin:1em 0 0 0;
     }
     
     .service-2 .para-desk{
@@ -911,6 +912,10 @@ textarea{
     }
     ul.sv-3-ul,.service-2 ul{
         margin-left:32px;
+    }
+    div .sv-1 h3{
+        margin-top: 20px;
+        background-color: black;
     }
     /* contact section */
 
@@ -975,13 +980,13 @@ textarea{
         border-radius:2px;
         margin-top: 0.8em;
     }
+    h5.chng-col.mail{
+        margin: 1em 0 0 3em;
+    }
     h1.chng-col.con-h1{
         margin-top: 0.7em;
     }
-    div .sv-1 h3{
-        margin-top: 20px;
-        background-color: black;
-    }
+    
     .know{
         background-color: #4b4444;
     }
@@ -990,7 +995,7 @@ textarea{
     }
     h2.chng-col.con-in{
         text-align: center;
-        margin-top: 1em;
+        margin: 16px 0 0 0;
     }
     .con-in, .mail , p.mail-info , .sub-h3, h4.mail-info{
         margin-right: 1em;
