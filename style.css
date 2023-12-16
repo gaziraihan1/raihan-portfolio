@@ -820,7 +820,7 @@ textarea{
     }
     .check-more{
         display:block;
-        margin:2em 1em;
+        margin:1em 1em;
         background-color: #003d03;
         border:1px solid white;
         border-radius: 3px;
@@ -857,7 +857,6 @@ textarea{
         display: flex;
         flex-direction:column;
         gap: 0.5em;
-        margin-top: 2em;
     }
 
     .service-1,.service-2,.service-3{
@@ -873,9 +872,9 @@ textarea{
     .sv-1{
         /* display: block; */
         text-align: center;
-        max-height: 40px;
+        max-height:50px;
         /* margin-top: 0.5em; */
-        margin:0em 2em;
+        margin:0 1em;
         margin-bottom: -0.3em;
     }
     .hello{
@@ -905,17 +904,14 @@ textarea{
         display: block;
         text-align: center;
         font-size:22px;
-        margin-top:-0.3em;
+        background-color: black;
+        margin: auto;
     }
     div.skill p, div.service p, h4.com-des, div.service a{
         margin-left: 16px;
     }
     ul.sv-3-ul,.service-2 ul{
         margin-left:32px;
-    }
-    div .sv-1 h3{
-        margin-top: 20px;
-        background-color: black;
     }
     /* contact section */
 
